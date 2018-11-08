@@ -1,11 +1,14 @@
 import React, { Component } from 'react';
 import './App.css';
 
+//Components
+import WhatIsBevy from './components/WhatIsBevy';
+
 class App extends Component {
   render() {
     return (
      <div className='.container'>
-      The start of something great
+      <WhatIsBevy /> 
      </div>
     );
   }
