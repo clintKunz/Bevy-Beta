@@ -8,7 +8,7 @@ import WhatIsBevy from './components/WhatIsBevy';
 class App extends Component {
   render() {
     return (
-     <div className='.container'>
+     <div className='container'>
       <Navigation />
       <WhatIsBevy /> 
      </div>

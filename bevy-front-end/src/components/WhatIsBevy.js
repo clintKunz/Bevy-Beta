@@ -6,9 +6,9 @@ import '../App.css';
 class WhatIsBevy extends Component {
   render() {
     return (
-     <div className='.what-is-bevy'>
+     <div className='what-is-bevy'>
         <h1>What is Bevy-Beta</h1>
-        <p>A platform for making, taking, and paying back family loans.</p>
+        <p>A helpful tool for family loans</p>
      </div>
     );
   }
