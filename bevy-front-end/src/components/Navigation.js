@@ -7,7 +7,9 @@ class Navigation extends Component {
   render() {
     return (
      <nav className='navigation'>
+        <h1>
         <a href="#" className='logo'>Bevy-Beta</a>
+        </h1>
         <div className='nav-links'>
           <a href="#">Features</a>
           <a href="#">Pricing</a>
