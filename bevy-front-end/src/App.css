@@ -57,30 +57,41 @@ table {
 
 body {
   margin: auto; 
-  width: 500px; 
+  width: 900px;
+  font-family: 'Roboto', sans-serif; 
 }
 
 .navigation {
 	display: flex; 
 	justify-content: space-between;
-
+	align-items: center; 
+	height: 75px; 
 }
 
 .navigation .logo {
 	text-decoration: none;
 	font-size: 30px; 
-	color: darkgreen;
+	color: #222222;
 }
 
 .navigation .nav-links {
 	display: flex; 
 	align-content: center; 
+	height: 100%; 
 }
 
 .navigation .nav-links a {
-	margin-left: 10px;
+	display: flex; 
+	align-items: center; 
+	color:#222222; 
+	margin-left: 25px;
 	text-decoration: none; 
-	color: green; 
+	font-size: 18px;
+}
+
+.navigation .nav-links a:hover {
+	cursor: pointer; 
+	border-top: 3px solid lightgrey;
 }
 
 
