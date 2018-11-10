@@ -3,7 +3,7 @@ import './App.css';
 
 //Components
 import Navigation from './components/Navigation';
-import WhatIsBevy from './components/WhatIsBevy';
+import HomeCTA from './components/HomeCTA';
 
 class App extends Component {
   render() {
@@ -11,7 +11,7 @@ class App extends Component {
      <div className='container'>
       <header>
         <Navigation />
-        <WhatIsBevy /> 
+        <HomeCTA /> 
       </header>
      </div>
     );
