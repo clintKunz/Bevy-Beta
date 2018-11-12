@@ -181,3 +181,72 @@ body {
 	justify-content: center;
 	align-items: center; 
 }
+
+/* home features styling */
+
+.home-features-container {
+	padding: 60px;
+	text-align: center; 
+}
+
+.home-features-container h2 {
+	font-size: 30px; 
+	margin-bottom: 15px; 
+}
+
+.home-features-container p {
+	font-size: 17px; 
+}
+
+.initiate-loan {
+	display: flex;
+	margin: 50px 10px;  
+}
+
+.initiate-loan img {
+	width: 150%;
+	height: 200px; 
+}
+
+.initiate-text {
+	text-align: left;
+	margin-left: 15px; 
+}
+
+.initiate-text h3 {
+	font-weight: bold; 
+	margin: 20px 0; 
+	font-size: 20px; 
+}
+
+.agreement {
+	display: flex; 
+	margin: 50px 10px; 
+}
+
+.agreement img {
+	width: 150%;
+	height: 200px; 
+}
+
+.agreement-text {
+	text-align: left;
+	margin-right: 15px; 
+}
+
+.agreement-text h3 {
+	font-weight: bold; 
+	margin: 20px 0;
+	font-size: 20px; 
+}
+
+.features {
+	display: flex;
+	text-align: left;  
+}
+
+.features h4 {
+	font-size: 20px; 
+	font-weight: bold; 
+	margin: 10px 0; 
+}

@@ -15,6 +15,7 @@ class HomeFeatures extends Component {
                 <h3>Initiate a loan and send it to the borrow</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Consectetur adipiscing elit.</p>
             </div>
+        </section>
         <section className='agreement'>
             <div className="agreement-text">
                 <h3>Both parties agree</h3>
@@ -45,7 +46,6 @@ class HomeFeatures extends Component {
             </div>
         </section>
        </section>
-      </section>
     );
   }
 }
