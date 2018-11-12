@@ -250,3 +250,24 @@ body {
 	font-weight: bold; 
 	margin: 10px 0; 
 }
+
+/* home pricing component */
+
+.home-pricing-container {
+	height: 230px;
+	background-color: #DDE7ED;  
+	display: flex; 
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.home-pricing-container h2 {
+	font-size: 32px; 
+	margin: 20px 0; 
+}
+
+.home-pricing-container p {
+	width: 500px; 
+	font-size: 17px; 
+}
