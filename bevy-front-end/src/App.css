@@ -142,6 +142,13 @@ body {
 	font-size: 18px; 
 }
 
+.cta-text .btn:hover {
+	cursor: pointer; 
+	background-color: #FFFFFF;
+	color: #222222;
+	border: none; 
+}
+
 .cta-text .sign-up {
 	background-color: #222222;
 	width: 100px;
