@@ -4,6 +4,7 @@ import './App.css';
 //Components
 import Navigation from './components/Navigation';
 import HomeCTA from './components/HomeCTA';
+import PressBar from './components/PressBar';
 
 class App extends Component {
   render() {
@@ -12,6 +13,7 @@ class App extends Component {
       <header>
         <Navigation />
         <HomeCTA /> 
+        <PressBar />
       </header>
      </div>
     );
