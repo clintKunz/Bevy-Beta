@@ -59,7 +59,8 @@ table {
 }
 
 body {
-  width:1100px;
+  max-width: 1100px;
+  width: 100%; 
   margin: 0 auto; 
   font-family: 'Roboto', sans-serif; 
 }
@@ -87,6 +88,12 @@ body {
 	height: 100%; 
 }
 
+.navigation .nav-links-menu img {
+	display: none; 
+	width: 30px;
+	height: auto; 
+}
+
 .navigation .nav-links a {
 	display: flex; 
 	align-items: center; 
@@ -99,6 +106,16 @@ body {
 .navigation .nav-links a:hover {
 	cursor: pointer; 
 	border-top: 3px solid lightgrey;
+}
+
+@media (max-width: 800px) {
+	.navigation .nav-links {
+		display: none; 
+	}
+
+	.navigation .nav-links-menu img {
+		display: flex; 
+	}
 }
 
 /* Home CTA CSS */
@@ -160,6 +177,17 @@ body {
 .cta-text .learn-more {
 	color: #222222;
 }
+
+@media (max-width: 800px) {
+	.cta-image {
+		display: none; 
+	}
+
+	.cta-text {
+		width: 87%;
+		height: 66%;  
+	}
+} 
 
 /* IN THE PRESS */
 .press-bar {
@@ -313,6 +341,7 @@ body {
 
 .footer-container .email-signup {
 	width: 400px; 
+	font-size: 1.7rem; 
 }
 
 .footer-container .email-signup h2 {
@@ -353,7 +382,8 @@ body {
 .footer-container .footer-links {
 	display: flex; 
 	flex-direction: column;
-	margin-left: 30px; 
+	margin-left: 30px;
+	font-size: 1.8rem;  
 }
 
 .footer-container .footer-links a {
