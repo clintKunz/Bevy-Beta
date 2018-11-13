@@ -23,7 +23,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
   vertical-align: baseline;
-  border: 1px solid red;  
+  /* border: 1px solid red;   */
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -288,4 +288,69 @@ body {
 	display: flex; 
 	justify-content: center;
 	align-items: center; 
+}
+
+/* footer styling */
+
+.footer-container {
+	display: flex; 
+	justify-content: space-between;
+	background-color: #2B2C2E;
+	color: #FFFFFF;
+	padding: 40px;  
+}
+
+.footer-container .email-signup {
+	width: 400px; 
+}
+
+.footer-container .email-signup h2 {
+	font-size: 27px; 
+	margin-bottom: 15px; 
+}
+
+.footer-container .email-signup p {
+	font-size: 17px; 
+	margin-bottom: 15px; 
+	color: #939596;
+}
+
+.email-signup .subscribe {
+	display: flex;
+	height: 35px;
+	margin-bottom: 15px; 
+}
+
+.email-signup .subscribe .btn-subscribe {
+	width: 150px; 
+	display: flex;
+	justify-content: center;
+	align-items: center; 
+	background-color: #939596;
+}
+
+.email-signup .subscribe .btn-subscribe:hover {
+	cursor: pointer; 
+	background-color: #4DBD90;
+}
+
+.email-signup .subscribe input {
+	padding-left: 10px; 
+	width: 250px;
+}
+
+.footer-container .footer-links {
+	display: flex; 
+	flex-direction: column;
+	margin-left: 30px; 
+}
+
+.footer-container .footer-links a {
+	text-decoration: none; 
+	color: #939596;
+	margin: 8px 0 0; 
+}
+
+.footer-container .footer-links a:hover {
+	cursor: pointer; 
 }
