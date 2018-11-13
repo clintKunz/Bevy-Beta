@@ -8,11 +8,11 @@ class References extends Component {
     return (
       <section className='references'>
         <h2>What People Say About Bevy</h2>
-        <div class="references-carousel">
-				<div class="left-button">
+        <div className="references-carousel">
+				<div className="left-button">
                 left
                 </div>
-				<div class="right-button">
+				<div className="right-button">
                 right         
                 </div>
 		</div>

@@ -3,6 +3,9 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+html {
+	font-size: 62.5% !important;
+}
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -20,9 +23,8 @@ time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 100%;
 	font: inherit;
-  vertical-align: baseline;
+  	vertical-align: baseline;
   /* border: 1px solid red;   */
 }
 /* HTML5 display-role reset for older browsers */
@@ -31,6 +33,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
+	
 	line-height: 1;
 }
 ol, ul {
@@ -56,8 +59,8 @@ table {
 }
 
 body {
-  margin: auto; 
-  /* width: 900px; */
+  width:1100px;
+  margin: 0 auto; 
   font-family: 'Roboto', sans-serif; 
 }
 
@@ -74,7 +77,7 @@ body {
 
 .navigation .logo {
 	text-decoration: none;
-	font-size: 30px; 
+	font-size: 3rem; 
 	color: #222222;
 }
 
@@ -90,7 +93,7 @@ body {
 	color:#222222; 
 	margin-left: 25px;
 	text-decoration: none; 
-	font-size: 18px;
+	font-size: 1.8rem;
 }
 
 .navigation .nav-links a:hover {
@@ -116,12 +119,12 @@ body {
 }
 
 .cta-text h2 {
-	font-size: 35px;
+	font-size: 3.5rem;
 	font-weight: bold; 
 }
 
 .cta-text p {
-	font-size: 25px;
+	font-size: 2.5rem;
 	margin: 20px 0;  
 }
 
@@ -139,7 +142,7 @@ body {
 	margin-right: 15px;
 	border: 2px solid #222222;  
 	border-radius: 3px;
-	font-size: 18px; 
+	font-size: 1.8rem; 
 }
 
 .cta-text .btn:hover {
@@ -167,7 +170,7 @@ body {
 
 .press-bar h3 {
 	text-align: center;  
-	font-size: 25px; 
+	font-size: 2.5rem; 
 }
 
 .press-bar .press-logos img {
@@ -194,12 +197,12 @@ body {
 }
 
 .home-features-container h2 {
-	font-size: 30px; 
+	font-size: 3rem; 
 	margin-bottom: 15px; 
 }
 
 .home-features-container p {
-	font-size: 17px; 
+	font-size: 1.7rem; 
 }
 
 .initiate-loan {
@@ -220,7 +223,7 @@ body {
 .initiate-text h3 {
 	font-weight: bold; 
 	margin: 20px 0; 
-	font-size: 20px; 
+	font-size: 2rem; 
 }
 
 .agreement {
@@ -241,7 +244,7 @@ body {
 .agreement-text h3 {
 	font-weight: bold; 
 	margin: 20px 0;
-	font-size: 20px; 
+	font-size: 2rem; 
 }
 
 .features {
@@ -249,8 +252,12 @@ body {
 	text-align: left;  
 }
 
+.feature {
+	margin: 0 8px; 
+}
+
 .features h4 {
-	font-size: 20px; 
+	font-size: 2rem; 
 	font-weight: bold; 
 	margin: 10px 0; 
 }
@@ -267,13 +274,13 @@ body {
 }
 
 .home-pricing-container h2 {
-	font-size: 32px; 
+	font-size: 3.2rem; 
 	margin: 20px 0; 
 }
 
 .home-pricing-container p {
 	width: 500px; 
-	font-size: 17px; 
+	font-size: 1.7rem; 
 }
 
 /* home references */
@@ -285,7 +292,7 @@ body {
 
 .references h2 {
 	margin: 70px 0 30px; 
-	font-size: 32px; 
+	font-size: 3.2rem; 
 }
 
 .references-carousel {
@@ -309,12 +316,12 @@ body {
 }
 
 .footer-container .email-signup h2 {
-	font-size: 27px; 
+	font-size: 2.7rem; 
 	margin-bottom: 15px; 
 }
 
 .footer-container .email-signup p {
-	font-size: 17px; 
+	font-size: 1.7rem; 
 	margin-bottom: 15px; 
 	color: #939596;
 }
@@ -352,9 +359,12 @@ body {
 .footer-container .footer-links a {
 	text-decoration: none; 
 	color: #939596;
-	margin: 8px 0 0; 
+	margin: 8px 0 0;  
 }
 
 .footer-container .footer-links a:hover {
-	cursor: pointer; 
+	cursor: pointer;
+	padding-bottom: 3px; 
+	border-bottom: 1px solid #939596;
+	border-bottom-left-radius: 5px; 
 }
