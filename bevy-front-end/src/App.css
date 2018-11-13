@@ -182,6 +182,10 @@ body {
 	align-items: center; 
 }
 
+.press-logos .text-logo {
+	padding: 8px;
+}
+
 /* home features styling */
 
 .home-features-container {

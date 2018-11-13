@@ -13,8 +13,8 @@ class PressBar extends Component {
       <section className='press-bar'>
         <h3>IN THE PRESS</h3>
         <div className="press-logos">
-            <img src={bloomberg} alt="bloomberg logo"/>
-            <img src={forbes} alt="economist logo"/>
+            <img src={bloomberg} alt="bloomberg logo" className='text-logo'/>
+            <img src={forbes} alt="economist logo" className='text-logo'/>
             <img src={motleyFool} alt="motley fool logo"/>
         </div>
       </section>
