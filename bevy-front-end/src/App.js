@@ -7,6 +7,8 @@ import HomeCTA from './components/HomeCTA';
 import PressBar from './components/PressBar';
 import HomeFeatures from './components/HomeFeatures';
 import HomePricing from './components/HomePricing';
+import References from './components/References';
+import Footer from './components/Footer';
 
 class App extends Component {
   render() {
@@ -14,11 +16,13 @@ class App extends Component {
      <div className='container'>
       <header>
         <Navigation />
-        <HomeCTA /> 
+        <HomeCTA />
+      </header> 
         <PressBar />
         <HomeFeatures />
         <HomePricing />
-      </header>
+        <References /> 
+        <Footer />
      </div>
     );
   }
