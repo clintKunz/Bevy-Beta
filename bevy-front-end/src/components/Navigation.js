@@ -1,8 +1,7 @@
 import menu from '../assets/menu.png';
+import { Link } from 'react-router-dom';
 import React, { Component } from 'react';
 import '../App.css';;
-
-//Components
 
 class Navigation extends Component {
   render() {
@@ -10,16 +9,16 @@ class Navigation extends Component {
      <header>
         <nav className='navigation'>
           <h1>
-          <a href="#" className='logo'>Bevy-Beta</a>
+          <Link to='/' className='logo'>Bevy-Beta</Link>
           </h1>
           <div className="nav-links-menu">
             <img src={menu} alt="navigation menu"/>
           </div>
           <div className='nav-links'>
-            <a href="#">Features</a>
-            <a href="#">Pricing</a>
-            <a href="#">Why Bevy?</a>
-            <a href="#">Log In</a>
+            <Link to='/features'>Features</Link>
+            <Link to='/pricing'>Pricing</Link>
+            <Link to='/why-bevy'>Why Bevy?</Link>
+            <Link to='/login'>Log In</Link>
           </div>
         </nav>
      </header>
