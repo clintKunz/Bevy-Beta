@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import './App.css';
 
+//React-router-dom
+import { Route } from 'react-router-dom';
+
 //Components
 import Navigation from './components/Navigation';
 import HomePage from './components/HomePage/HomePage';
@@ -11,7 +14,7 @@ class App extends Component {
     return (
      <div className='container'>
         <Navigation />
-        <HomePage />
+        <Route exact path='/' component={HomePage} />
         <Footer />
      </div>
     );
