@@ -367,6 +367,17 @@ body {
 	font-size: 3.2rem; 
 }
 
+.references-carousel img {
+	width: 80%;
+	height: 275px;
+	border: 1px solid red;  
+}
+
+.references-carousel .left-button, .references-carousel .right-button {
+	font-size: 40px;
+	margin: 5px;  
+}
+
 .references-carousel {
 	display: flex; 
 	justify-content: center;

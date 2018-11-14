@@ -9,13 +9,14 @@ class References extends Component {
       <section className='references'>
         <h2>What People Say About Bevy</h2>
         <div className="references-carousel">
-				<div className="left-button">
-                left
-                </div>
-				<div className="right-button">
-                right         
-                </div>
-		</div>
+          <div className="left-button">
+            {'<'}        
+          </div>
+          <img src="" alt=""/>
+          <div className="right-button">
+            {'>'}         
+          </div>
+	    	</div>
       </section>
     );
   }
