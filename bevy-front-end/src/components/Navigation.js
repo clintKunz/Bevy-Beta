@@ -7,20 +7,22 @@ import '../App.css';;
 class Navigation extends Component {
   render() {
     return (
-     <nav className='navigation'>
-        <h1>
-        <a href="#" className='logo'>Bevy-Beta</a>
-        </h1>
-        <div className="nav-links-menu">
-          <img src={menu} alt="navigation menu"/>
-        </div>
-        <div className='nav-links'>
-          <a href="#">Features</a>
-          <a href="#">Pricing</a>
-          <a href="#">Why Bevy?</a>
-          <a href="#">Sign Up</a>
-        </div>
-     </nav>
+     <header>
+        <nav className='navigation'>
+          <h1>
+          <a href="#" className='logo'>Bevy-Beta</a>
+          </h1>
+          <div className="nav-links-menu">
+            <img src={menu} alt="navigation menu"/>
+          </div>
+          <div className='nav-links'>
+            <a href="#">Features</a>
+            <a href="#">Pricing</a>
+            <a href="#">Why Bevy?</a>
+            <a href="#">Log In</a>
+          </div>
+        </nav>
+     </header>
     );
   }
 }

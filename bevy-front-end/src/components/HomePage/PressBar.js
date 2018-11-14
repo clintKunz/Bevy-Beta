@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
-import '../App.css';
+import '../../App.css';
 
 //images
-import wsj from '../assets/wsj.png';
-import motleyFool from '../assets/motley-fool.jpg';
-import bloomberg from '../assets/bloomberg.png';
-import forbes from '../assets/forbes.png';
+import motleyFool from '../../assets/motley-fool.jpg';
+import bloomberg from '../../assets/bloomberg.png';
+import forbes from '../../assets/forbes.png';
 
 class PressBar extends Component {
   render() {
