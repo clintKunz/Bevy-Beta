@@ -1,4 +1,0 @@
-[build]
-    base = 'bevy-front-end'
-    publish = 'bevy-front-end'
-    command = 'yarn start'
