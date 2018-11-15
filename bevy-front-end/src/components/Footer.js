@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import '../App.css';
+import { Link } from 'react-router-dom';
 
 //Components
 
@@ -20,23 +21,23 @@ class Footer extends Component {
         </div>
         <div className="footer-links">
             <h4>Company</h4>
-            <a href="#">Home</a>
-            <a href="#">Features</a>
-            <a href="#">Pricing</a>
-            <a href="#">Why Bevy?</a>
-            <a href="#">Sign Up</a>
+            <Link to='/'>Home</Link>
+            <Link to='/'>Features</Link>
+            <Link to='/'>Pricing</Link>
+            <Link to='/'>Why Bevy?</Link>
+            <Link to='/'>Sign Up</Link>
         </div>
         <div className="footer-links">
             <h4>Questions</h4>
-            <a href="#">Origination</a>
-            <a href="#">Payments</a>
-            <a href="#">Delinquency</a>
-            <a href="#">Tax Forms</a>
+            <Link to='/'>Origination</Link>
+            <Link to='/'>Payments</Link>
+            <Link to='/'>Delinquency</Link>
+            <Link to='/'>Tax Forms</Link>
         </div>
         <div className="footer-links">
             <h4>Legal</h4>
-            <a href="#">Privacy Policy</a>
-            <a href="#">Terms of Use</a>
+            <Link to='/'>Privacy Policy</Link>
+            <Link to='/'>Terms of Use</Link>
         </div>
       </footer>
     )
