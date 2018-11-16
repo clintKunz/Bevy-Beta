@@ -3,6 +3,7 @@ import '../../App.css';
 import { Link } from 'react-router-dom';
 
 //Components
+import hike from '../../assets/hike.jpg';
 
 class HomeCTA extends Component {
   render() {
@@ -15,7 +16,7 @@ class HomeCTA extends Component {
           <Link to='/why-bevy' className='btn learn-more'>Learn More</Link>
         </div>
         <div className='cta-image'>
-          <img src="" alt=""/>
+          <img src={hike} alt="three adults hiking in the mountains"/>
         </div>
       </section>
     );
