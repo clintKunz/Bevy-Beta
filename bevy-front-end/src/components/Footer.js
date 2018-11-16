@@ -17,7 +17,10 @@ class Footer extends Component {
                 Subscribe
                 </div>
             </div>
-            <div className="social-links">twitter, facebook</div>
+            <div className="social-links">
+                <a href="http://www.twitter.com" target='_blank'><i class="fab fa-twitter fa-lg"></i></a>
+                <a href="http://www.facebook.com" target='_blank'><i class="fab fa-facebook fa-lg"></i></a>
+            </div>
         </div>
         <div className="footer-links">
             <h4>Company</h4>

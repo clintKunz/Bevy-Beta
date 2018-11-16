@@ -412,6 +412,12 @@ body {
 	color: #939596;
 }
 
+.footer-container .email-signup .social-links a {
+	text-decoration: none; 
+	color: #FFFFFF; 
+	margin-right: 10px; 
+}
+
 .email-signup .subscribe {
 	display: flex;
 	height: 35px;
