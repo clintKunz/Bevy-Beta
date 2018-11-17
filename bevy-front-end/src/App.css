@@ -25,7 +25,7 @@ time, mark, audio, video {
 	border: 0;
 	font: inherit;
   	vertical-align: baseline;
-  border: 1px solid red;  
+  /* border: 1px solid red;   */
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -243,16 +243,16 @@ body {
 
 .initiate-loan {
 	display: flex;
-	margin: 50px 10px;
-	width: 60%;
-	border: 1px solid red;   
+	justify-content: center; 
+	margin: 50px auto;
+	width: 87%;
+	height: auto; 
 }
 
 @media (max-width: 800px) {
 	.initiate-loan {
 		flex-direction: column;
 		align-items: center;
-		border: 1px solid red; 
 	}
 
 	.initiate-loan .initiate-text {
@@ -265,9 +265,9 @@ body {
 }
 
 .initiate-loan img {
-	width: 100%;
-	height: 100%; 
-	border: 1px solid red; 
+	width: 50%;
+	height: 100%;
+	border-radius: 4px;  
 }
 
 .initiate-text {
@@ -282,15 +282,17 @@ body {
 }
 
 .agreement {
-	display: flex; 
-	margin: 50px 10px;
-	width: 60%; 
+	display: flex;
+	justify-content: center; 
+	margin: 50px auto;
+	width: 87%;
+	height: auto; 
 }
 
 .agreement img {
-	width: 100%;
-	height: 100%;
-	border: 1px solid red;  
+	width: 50%;
+	height: 100%; 
+	border-radius: 4px;
 }
 
 .agreement-text {
@@ -307,8 +309,7 @@ body {
 @media (max-width: 800px) {
 	.agreement {
 		flex-direction: column-reverse;
-		align-items: center;
-		border: 1px solid red; 
+		align-items: center; 
 	}
 
 	.agreement .agreement-text {
@@ -369,7 +370,7 @@ body {
 /* home references */
 
 .references {
-	height: 400px;
+	height: 450px;
 	text-align: center;  
 }
 
@@ -379,9 +380,8 @@ body {
 }
 
 .references-carousel img {
-	width: 80%;
-	height: 275px;
-	border: 1px solid red;  
+	width: 65%;
+	height: 275px;  
 }
 
 .references-carousel .left-button, .references-carousel .right-button {

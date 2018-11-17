@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import '../../App.css';
 
 //Components
+import feedback from '../../assets/feedback.jpg';
 
 class References extends Component {
   render() {
@@ -12,7 +13,7 @@ class References extends Component {
           <div className="left-button">
             {'<'}        
           </div>
-          <img src="" alt=""/>
+          <img src={feedback} alt="chalkboard with feedback written on it"/>
           <div className="right-button">
             {'>'}         
           </div>
