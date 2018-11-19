@@ -13,7 +13,7 @@ import Footer from '../Footer';
 class HomePage extends Component {
     render() {
       return (
-        <div className='container'>
+        <div className='home-container'>
             <Navigation />
             <HomeCTA />
             <PressBar />
