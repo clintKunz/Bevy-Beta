@@ -5,17 +5,15 @@ import './App.css';
 import { Route } from 'react-router-dom';
 
 //Components
-import Navigation from './components/Navigation';
 import HomePage from './components/HomePage/HomePage';
-import Footer from './components/Footer';
+import Login from './components/Login/Login';
 
 class App extends Component {
   render() {
     return (
      <div className='container'>
-        <Navigation />
         <Route exact path='/' component={HomePage} />
-        <Footer />
+        <Route exact path='/login' component={Login} />
      </div>
     );
   }

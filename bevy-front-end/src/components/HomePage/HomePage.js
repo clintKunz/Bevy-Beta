@@ -7,16 +7,20 @@ import HomeFeatures from './HomeFeatures';
 import HomePricing from './HomePricing';
 import References from './References';
 
+import Navigation from '../Navigation';
+import Footer from '../Footer';
 
 class HomePage extends Component {
     render() {
       return (
         <div className='container'>
+            <Navigation />
             <HomeCTA />
             <PressBar />
             <HomeFeatures />
             <HomePricing />
             <References /> 
+            <Footer />
         </div>
       );
     }
