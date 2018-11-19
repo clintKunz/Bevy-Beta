@@ -478,3 +478,41 @@ body {
 }
 
 /* Login Styling */
+.login-container {
+	width: 400px; 
+	height: 600px; 
+	margin: auto; 
+	border: 1px solid red; 
+}
+
+.login-container .login-or-signup {
+	display: flex; 
+	justify-content: space-around;
+	align-items: center; 
+	height: 75px; 
+	font-size: 2.5rem; 
+}
+
+.login-container .login-or-signup .login-btn, .login-container .login-or-signup .signup-btn {
+	display: flex; 
+	justify-content: center; 
+	align-items: center; 
+	height: 100%; 
+	width: 100%; 
+	text-decoration: none; 
+	color: #222222; 
+	border: 1px solid #222222; 
+	border-bottom-left-radius: 10px; 
+}
+
+.login-container .login-entry, .login-container .signup-entry {
+	width: 100%; 
+	height: 84%;
+	border: 1px solid blue;  
+}
+
+.login-container .exit {
+	display: inline-block;
+	font-size: 2rem;
+	border: 1px solid green; 
+}
