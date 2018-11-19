@@ -16,6 +16,7 @@ class Login extends Component {
             </div>
             <Route exact path='/login' component={LoginEntry} />
             <Route exact path='/login/signup' component={SignupEntry} />
+            <Link to='/' className="exit">X</Link>
         </section>
       );
     }
