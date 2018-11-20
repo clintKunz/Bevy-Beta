@@ -10,7 +10,7 @@ class HomeCTA extends Component {
     return (
       <section className='home-cta-container'>
         <div className='cta-text'>
-          <h2>Bevy makes family lending less awkward</h2>
+          <h2>Bevy makes lending less awkward</h2>
           <p>Customize the terms then let Bevy take care of the rest</p>
           <Link to='/login/signup' className='btn sign-up'>Sign Up</Link>
           <Link to='/why-bevy' className='btn learn-more'>Learn More</Link>
