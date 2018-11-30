@@ -7,6 +7,7 @@ import { Route } from 'react-router-dom';
 //Components
 import HomePage from './components/HomePage/HomePage';
 import Login from './components/Login/Login';
+import Loan from './components/Loan/Loan';
 
 class App extends Component {
   render() {
@@ -14,6 +15,7 @@ class App extends Component {
      <div className='container'>
         <Route exact path='/' component={HomePage} />
         <Route path='/login' component={Login} />
+        <Route path='/loan' component={Loan} />
      </div>
     );
   }
