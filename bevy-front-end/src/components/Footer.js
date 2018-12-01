@@ -28,7 +28,7 @@ class Footer extends Component {
             <Link to='/'>Features</Link>
             <Link to='/'>Pricing</Link>
             <Link to='/'>Why Bevy?</Link>
-            <Link to='/'>Sign Up</Link>
+            <Link to='/login/signup'>Sign Up</Link>
         </div>
         <div className="footer-links">
             <h4>Questions</h4>
