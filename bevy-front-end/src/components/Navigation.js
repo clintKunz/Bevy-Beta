@@ -15,7 +15,6 @@ class Navigation extends Component {
             <img src={menu} alt="navigation menu"/>
           </div>
           <div className='nav-links'>
-            <Link to='/features'>Features</Link>
             <Link to='/loan'>Create A Loan</Link>
             <Link to='/why-bevy'>Why Bevy?</Link>
             <Link to='/login'>Log In</Link>
