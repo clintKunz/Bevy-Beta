@@ -478,6 +478,7 @@ body {
 }
 
 /* Login Styling */
+
 .login-container {
 	width: 400px; 
 	height: 600px; 
@@ -516,3 +517,19 @@ body {
 	font-size: 2rem;
 	border: 1px solid green; 
 }
+
+/* Create a Loan */
+
+.loan-container .loan-header {
+	border: 1px solid red; 
+	height: 100px;
+	display: flex; 
+	justify-content: center; 
+	align-items: center;   
+}
+
+.loan-container .loan-header h2 {
+	border: 1px solid red;
+	font-size: 3.5rem;  
+}
+

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Route } from 'react-router-dom';
+import '../../App.css';
 
 //Components
 import Footer from '../Footer';
@@ -16,8 +17,8 @@ class Loan extends Component {
   render() {
     return (
       <div className='loan-container'>
-        <header>
-            <h2>Create a loan</h2>
+        <header className='loan-header'>
+            <h2>Create a Loan</h2>
         </header>
         <div className='input-container'>
             <div className="input">
