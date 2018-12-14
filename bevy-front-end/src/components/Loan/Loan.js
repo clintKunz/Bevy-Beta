@@ -4,6 +4,7 @@ import '../../App.css';
 
 //Components
 import Footer from '../Footer';
+import Form from './Form/Form.js';
 import LoanP1 from './Pages/LoanP1';
 import LoanP2 from './Pages/LoanP2';
 import LoanP3 from './Pages/LoanP3';
@@ -14,6 +15,31 @@ import LoanP7 from './Pages/LoanP7';
 import LoanP8 from './Pages/LoanP8';
 
 class Loan extends Component {
+  constructor() {
+    super();
+    this.state = {
+      lenderName: '',
+      lenderEmail: '',
+      borrowerName: '',
+      borrowerEmail: '',
+      loanAmount: '',
+      paybackStartDate: '',
+      loanLengthMonths: '',
+      interestRate: '',
+      payments: [],
+
+    }
+  }
+
+  handler = (e) => {
+
+    console.log(e.target);
+
+    this.setState({
+      [e.target.name]: e.target.value
+    })
+  }
+
   render() {
     return (
       <div className='loan-container'>
@@ -32,7 +58,7 @@ class Loan extends Component {
                 <Route exact path='/loan/page-8' component={LoanP8} />
             </div>
             <div className='form-container'>
-                <p>form...</p>
+                <Route exact path='/loan' component={Form} />
             </div>
         </div>
         <Footer />
