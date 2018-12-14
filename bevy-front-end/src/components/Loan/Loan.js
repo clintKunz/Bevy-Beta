@@ -48,14 +48,14 @@ class Loan extends Component {
         </header>
         <div className='input-container'>
             <div className="input">
-                <Route exact path='/loan'component={LoanP1} />
-                <Route exact path='/loan/page-2' component={LoanP2} />
-                <Route exact path='/loan/page-3' component={LoanP3} />
-                <Route exact path='/loan/page-4' component={LoanP4} />
-                <Route exact path='/loan/page-5' component={LoanP5} />
-                <Route exact path='/loan/page-6' component={LoanP6} />
-                <Route exact path='/loan/page-7' component={LoanP7} />
-                <Route exact path='/loan/page-8' component={LoanP8} />
+                <Route exact path='/loan' render={(props) => <LoanP1 {...props} handler={this.handler} /> } />
+                <Route exact path='/loan/page-2' render={(props) => <LoanP2 {...props} handler={this.handler} /> } />
+                <Route exact path='/loan/page-3' render={(props) => <LoanP3 {...props} handler={this.handler} /> } />
+                <Route exact path='/loan/page-4' render={(props) => <LoanP4 {...props} handler={this.handler} /> } />
+                <Route exact path='/loan/page-5' render={(props) => <LoanP5 {...props} handler={this.handler} /> } />
+                <Route exact path='/loan/page-6' render={(props) => <LoanP6 {...props} handler={this.handler} /> } />
+                <Route exact path='/loan/page-7' render={(props) => <LoanP7 {...props} handler={this.handler} /> } />
+                <Route exact path='/loan/page-8' render={(props) => <LoanP8 {...props} handler={this.handler} /> } />
             </div>
             <div className='form-container'>
                 <Route exact path='/loan' component={Form} />
