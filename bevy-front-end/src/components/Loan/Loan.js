@@ -26,8 +26,6 @@ class Loan extends Component {
       paybackStartDate: '',
       loanLengthMonths: '',
       interestRate: '',
-      payments: [],
-
     }
   }
 
