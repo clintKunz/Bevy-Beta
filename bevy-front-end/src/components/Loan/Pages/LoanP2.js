@@ -8,17 +8,17 @@ class LoanP2 extends Component {
     return (
       <div className=''>
         <h3>Loan Amount</h3>
-        <input type="number" placeholder="$Amount"/>
+        <input type="number" name="loanAmount" placeholder="$Amount" onChange={this.props.handler}/>
         <h4>Payback Start Date</h4>
-        <input type="date"/>
+        <input type="date" name="paybackStartDate" onChange={this.props.handler}/>
         <h4>Loan Length</h4>
         <select>
           <option value="months">Months</option>
           <option value="years">Years</option>
         </select>
-        <input type="number" placeholder="Length"/>
+        <input type="number" name="loanLengthMonths" placeholder="Length" onChange={this.props.handler}/>
         <h4>Interest Rate</h4>
-        <input type="number" placeholder="5%"/>
+        <input type="number" name="interestRate" placeholder="5%" onChange={this.props.handler}/>
         <br/>
         <Link to='/loan'>Back</Link>
         <Link to='/loan/page-3'>Next</Link>
