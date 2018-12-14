@@ -56,7 +56,7 @@ class Loan extends Component {
                 <Route exact path='/loan/page-8' render={(props) => <LoanP8 {...props} handler={this.handler} /> } />
             </div>
             <div className='form-container'>
-                <Route exact path='/loan' component={Form} />
+                <Route exact path='/loan' render={(props) => <Form {...props} {...this.state} /> } />
             </div>
         </div>
         <Footer />
