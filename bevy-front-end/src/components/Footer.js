@@ -24,17 +24,17 @@ class Footer extends Component {
             <h2>Bevy-Beta</h2>
             <p className='signup-invitation'>Sign up for our newsletter</p>
             <div className='subscribe'>
-                <input type="email" placeholder='Email Address'/>
+                <input type="email" placeholder='Email Address' autoComplete='email' required/>
                 <div className="btn-subscribe" onClick={this.subscribe}>
                 Subscribe
                 </div>
             </div>
             <div className='checkbox hide'>
-                <i class="far fa-check-circle fa-3x"></i>
+                <i className="far fa-check-circle fa-3x"></i>
             </div>
             <div className="social-links">
-                <a href="http://www.twitter.com" target='_blank'><i class="fab fa-twitter fa-lg"></i></a>
-                <a href="http://www.facebook.com" target='_blank'><i class="fab fa-facebook fa-lg"></i></a>
+                <a href="http://www.twitter.com" target='_blank' rel="noopener noreferrer"><i className="fab fa-twitter fa-lg"></i></a>
+                <a href="http://www.facebook.com" target='_blank' rel="noopener noreferrer"><i className="fab fa-facebook fa-lg"></i></a>
             </div>
         </div>
         <div className="footer-links">
