@@ -8,6 +8,7 @@ import { Route } from 'react-router-dom';
 import HomePage from './components/HomePage/HomePage';
 import Login from './components/Login/Login';
 import Loan from './components/Loan/Loan';
+import WhyBevy from './components/WhyBevy/WhyBevy';
 
 class App extends Component {
   render() {
@@ -16,6 +17,7 @@ class App extends Component {
         <Route exact path='/' component={HomePage} />
         <Route path='/login' component={Login} />
         <Route path='/loan' component={Loan} />
+        <Route path='/why-bevy' component={WhyBevy} />
      </div>
     );
   }
