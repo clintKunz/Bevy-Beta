@@ -3,6 +3,7 @@ import { Route } from 'react-router-dom';
 import '../../App.css';
 
 //Components
+import Navigation from '../Navigation';
 import Footer from '../Footer';
 import Form from './Form/Form.js';
 import LoanP1 from './Pages/LoanP1';
@@ -41,6 +42,7 @@ class Loan extends Component {
   render() {
     return (
       <div className='loan-container'>
+        <Navigation />
         <header className='loan-header'>
             <h2>Create a Loan</h2>
         </header>
