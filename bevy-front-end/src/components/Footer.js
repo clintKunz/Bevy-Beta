@@ -5,17 +5,32 @@ import { Link } from 'react-router-dom';
 //Components
 
 class Footer extends Component {
-  render() {
+  
+    subscribe = (e) => {
+        const subscribeDiv = document.querySelector('.subscribe');
+        subscribeDiv.classList.add('hide');
+
+        const signupInvitationP = document.querySelector('.signup-invitation');
+        signupInvitationP.textContent = 'Thanks for signing up!';
+
+        const checkboxDiv = document.querySelector('.checkbox');
+        checkboxDiv.classList.remove('hide');
+    }
+
+    render() {
     return (
       <footer className='footer-container'>
         <div className='email-signup'>
             <h2>Bevy-Beta</h2>
-            <p>Sign up for our newsletter</p>
+            <p className='signup-invitation'>Sign up for our newsletter</p>
             <div className='subscribe'>
                 <input type="email" placeholder='Email Address'/>
-                <div className="btn-subscribe">
+                <div className="btn-subscribe" onClick={this.subscribe}>
                 Subscribe
                 </div>
+            </div>
+            <div className='checkbox hide'>
+                <i class="far fa-check-circle fa-3x"></i>
             </div>
             <div className="social-links">
                 <a href="http://www.twitter.com" target='_blank'><i class="fab fa-twitter fa-lg"></i></a>
