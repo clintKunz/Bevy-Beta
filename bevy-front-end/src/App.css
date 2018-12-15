@@ -433,6 +433,15 @@ body {
 	margin-bottom: 15px; 
 }
 
+.email-signup .checkbox {
+	 margin: 5px 0 20px 0; 
+	 color: #4DBD90;
+}
+
+.email-signup .hide {
+	display:none; 
+}
+
 .email-signup .subscribe .btn-subscribe {
 	width: 150px; 
 	display: flex;
