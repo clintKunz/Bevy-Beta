@@ -6,9 +6,6 @@ import { Link } from 'react-router-dom';
 
 class Footer extends Component {
 
-    componentDidUpdate(prevProps) {
-            window.scrollTo(0,0);
-    }
   
     subscribe = (e) => {
         const subscribeDiv = document.querySelector('.subscribe');
